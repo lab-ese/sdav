@@ -2,12 +2,16 @@
 
 A comprehensive collection of 26 R scripts covering essential statistical concepts using public datasets.
 
-## Datasets Used
+## Datasets
 
-- **Iris** - Flower measurements (built-in R)
-- **Titanic** - Passenger survival data (GitHub)
-- **mtcars** - Motor Trend car data (built-in R)
-- **USArrests** - US crime statistics (built-in R)
+Datasets are available in the `datasets/` folder:
+
+| Dataset | File | Description |
+|---------|------|-------------|
+| Iris | `iris.csv` | Flower measurements (150 samples) |
+| Titanic | `titanic.csv` | Passenger survival data (891 passengers) |
+| mtcars | `mtcars.csv` | Motor Trend car road tests (32 cars) |
+| USArrests | `usarrests.csv` | US crime statistics by state (50 states)
 
 ## Scripts Overview
 

@@ -1,5 +1,5 @@
 # Proportion test + visualization
-titanic <- read.csv("datasets/titanic.csv")
+titanic <- read.csv("~/Desktop/SDAV/datasets/titanic.csv")
 result <- prop.test(sum(titanic$Survived), nrow(titanic), p=0.5)
 print(result)
 

@@ -1,5 +1,5 @@
 # Classify customers based on fare
-titanic <- read.csv("datasets/titanic.csv")
+titanic <- read.csv("~/Desktop/SDAV/datasets/titanic.csv")
 titanic$Class <- ifelse(titanic$Fare > 100, "Premium", ifelse(titanic$Fare > 30, "Standard", "Economy"))
 
 dev.new()

@@ -1,7 +1,7 @@
 # Read datasets
 data(iris)
-titanic <- read.csv("datasets/titanic.csv")
-mtcars <- read.csv("datasets/mtcars.csv")
+titanic <- read.csv("~/Desktop/SDAV/datasets/titanic.csv")
+mtcars <- read.csv("~/Desktop/SDAV/datasets/mtcars.csv")
 
 dev.new()
 par(mfrow=c(2,2))

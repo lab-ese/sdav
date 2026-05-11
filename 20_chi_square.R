@@ -1,5 +1,5 @@
 # Chi-square test + visualization
-titanic <- read.csv("datasets/titanic.csv")
+titanic <- read.csv("~/Desktop/SDAV/datasets/titanic.csv")
 result <- chisq.test(table(titanic$Sex, titanic$Survived))
 print(result)
 
